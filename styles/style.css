@@ -61,3 +61,31 @@ body {
 .company_logo > img {
   margin: 150px 50px 0px 50px;
 }
+
+/* popular css start */
+.popular {
+  text-align: center;
+  padding: 0 200px;
+}
+.popular h1 {
+  margin: 100px 0px 50px 0px;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.card {
+  text-align: start;
+  padding: 10px;
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.popular_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
