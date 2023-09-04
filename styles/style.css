@@ -124,3 +124,50 @@ body {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+/* responsive layout css */
+
+@media screen and (max-width: 576px) {
+  body {
+    background-color: lightgreen;
+  }
+  .fa-magnifying-glass {
+    width: 47px;
+  }
+  .nav-container {
+    padding: 50px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+  }
+  .banner_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .company_logo > img {
+    margin: 81px 54px -31px 10px;
+  }
+
+  .popular_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .popular {
+    text-align: center;
+    padding: 0 45px;
+    /* margin-bottom: 150px; */
+  }
+  .feautere_product {
+    flex-direction: column;
+  }
+  .footr_container {
+    margin: 0 auto;
+    text-align: start;
+    width: 1440px;
+    height: 239px;
+    background: #0a0826;
+  }
+}
