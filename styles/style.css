@@ -29,3 +29,35 @@ body {
 .fa-magnifying-glass {
   width: 100px;
 }
+
+/* banner css start */
+
+.banner_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner_text {
+  width: 50%;
+}
+.banner_text p {
+  color: #3a3a3a;
+  margin: 20px 0;
+}
+.banner_img {
+  background-image: url(../images/Circle\ design.svg);
+}
+.btn_primary {
+  border-radius: 41px;
+  border: none;
+  background: #e02c6d;
+  padding: 10px 24px;
+  gap: 8px;
+}
+
+.company_logo {
+  text-align: center;
+}
+.company_logo > img {
+  margin: 150px 50px 0px 50px;
+}
