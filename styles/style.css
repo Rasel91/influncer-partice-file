@@ -66,6 +66,7 @@ body {
 .popular {
   text-align: center;
   padding: 0 200px;
+  margin-bottom: 150px;
 }
 .popular h1 {
   margin: 100px 0px 50px 0px;
@@ -88,4 +89,16 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+.footr_container {
+  margin: 0 auto;
+  text-align: center;
+  width: 1440px;
+  height: 239px;
+  flex-shrink: 0;
+  background: #0a0826;
+}
+.footer_text {
+  padding: 50px;
+  color: aliceblue;
 }
